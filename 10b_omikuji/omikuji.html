@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <link rel="icon" href="favicon.ico">
+    <title>おみくじゲーム</title>
+    <link rel="stylesheet" href="css/omikuji.css">
+</head>
+
+<body>
+
+     <div lang="Back">
+        <button id="btn99" class="btn" type="button" onclick="history.back()">Back</button>
+
+
+    <!--　オープニングシャッターを表示するブロックを定義する。　-->
+    <div class = "shutter opening"></div>
+    <header>今日のあなたの運勢は?</header>
+
+    <div class="wrapper" title="大吉だといいね～">
+        <div class = "omikuji">
+            <div id= "btn1"></div>
+            <img id="omikujiText" src="" alt="おみくじの結果" />
+        </div>
+    </div>
+
+    <footer>
+        <p> Copyright 2025 Faysal F202</p>
+    </footer>
+
+<!-- jQueryライブラリを使用する。 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/snowfall.jquery.min.js"></script>
+    <script src="assets/jquery.lettering.js"></script>
+    <script src="assets/jquery.textillate.js"></script>
+    
+    <script src="js/omikuji.js" ></script>
+</body>
+
+</html>
